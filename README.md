@@ -1,5 +1,7 @@
-Krishna Power Shell - Complete Description
+#Krishna Power Shell - Complete Description
+
 Overview
+
 Krishna Power Shell is a sophisticated, feature-rich PHP web shell with a beautiful golden theme inspired by Lord Krishna. It provides comprehensive remote server management capabilities through a web interface with strong encryption and authentication.
 
 Version
